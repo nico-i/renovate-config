@@ -1,0 +1,8 @@
+{
+  "extends": [
+    "github>nico-i/renovate-configs/base",
+    ":npm",
+    "npm:unpublishSafe"
+  ],
+  "rangeStrategy": "pin"
+}

@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "config:best-practices",
+    ":approveMajorUpdates",
+    ":automergeDigest",
+    ":automergeMinor",
+    ":automergeStableNonMajor",
+    ":automergeTesters",
+    ":automergeTypes",
+    ":automergeRequireAllStatusChecks",
+    ":combinePatchMinorReleases",
+    ":docker",
+    "customManagers:dockerfileVersions",
+    ":enableVulnerabilityAlerts",
+    "mergeConfidence:all-badges",
+    ":pinDependencies",
+    ":pinSkipCi",
+    ":prConcurrentLimit10",
+    ":renovatePrefix",
+    ":semanticCommits",
+    ":separateMultipleMajorReleases",
+    ":timezone(Europe/Vienna)",
+    "security:openssf-scorecard",
+    "customManagers:githubActionsVersions",
+    "customManagers:makefileVersions"
+  ]
+}

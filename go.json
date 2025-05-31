@@ -1,0 +1,3 @@
+{
+  "extends": ["github>nico-i/renovate-configs/base", ":gomod"]
+}
