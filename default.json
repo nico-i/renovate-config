@@ -11,6 +11,7 @@
     ":automergeRequireAllStatusChecks",
     ":combinePatchMinorReleases",
     ":docker",
+    ":disableDependencyDashboard",
     "customManagers:dockerfileVersions",
     ":enableVulnerabilityAlerts",
     "mergeConfidence:all-badges",
