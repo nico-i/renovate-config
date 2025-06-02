@@ -27,6 +27,5 @@
     ":semanticCommits",
     ":separateMultipleMajorReleases",
     ":timezone(Europe/Vienna)"
-  ],
-  "dependencyDashboard": false
+  ]
 }
