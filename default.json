@@ -20,7 +20,6 @@
     ":automergeRequireAllStatusChecks",
     ":combinePatchMinorReleases",
     ":docker",
-    ":disableDependencyDashboard",
     ":enableVulnerabilityAlerts",
     ":pinSkipCi",
     ":prConcurrentLimit10",
