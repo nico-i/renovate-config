@@ -2,6 +2,15 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:best-practices",
+
+    "customManagers:dockerfileVersions",
+    "customManagers:githubActionsVersions",
+    "customManagers:makefileVersions",
+
+    "mergeConfidence:all-badges",
+
+    "security:openssf-scorecard",
+
     ":approveMajorUpdates",
     ":automergeDigest",
     ":automergeMinor",
@@ -12,18 +21,13 @@
     ":combinePatchMinorReleases",
     ":docker",
     ":disableDependencyDashboard",
-    "customManagers:dockerfileVersions",
     ":enableVulnerabilityAlerts",
-    "mergeConfidence:all-badges",
     ":pinDependencies",
     ":pinSkipCi",
     ":prConcurrentLimit10",
     ":renovatePrefix",
     ":semanticCommits",
     ":separateMultipleMajorReleases",
-    ":timezone(Europe/Vienna)",
-    "security:openssf-scorecard",
-    "customManagers:githubActionsVersions",
-    "customManagers:makefileVersions"
+    ":timezone(Europe/Vienna)"
   ]
 }
