@@ -22,7 +22,6 @@
     ":docker",
     ":disableDependencyDashboard",
     ":enableVulnerabilityAlerts",
-    ":pinDependencies",
     ":pinSkipCi",
     ":prConcurrentLimit10",
     ":renovatePrefix",
