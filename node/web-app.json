@@ -1,5 +1,17 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>nico-i/renovate-config", ":npm", "npm:unpublishSafe"],
-  "rangeStrategy": "pin"
+  "extends": ["github>nico-i/renovate-config//node/shared.json"],
+  "rangeStrategy": "pin",
+  "packageRules": [
+    {
+      "groupName": "Playwright monorepo",
+      "extends": ["monorepo:playwright"]
+    },
+    {
+      "groupName": "Playwright monorepo",
+      "description": "Two separate Playwright monorepo groupNames so Docker should be updated at the same time. See https://github.com/renovatebot/renovate/discussions/23889",
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["mcr.microsoft.com/playwright"]
+    }
+  ]
 }

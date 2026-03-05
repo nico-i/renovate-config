@@ -1,5 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>nico-i/renovate-config//node/shared.json"],
+  "extends": ["github>nico-i/renovate-config"],
   "rangeStrategy": "auto"
 }
